@@ -1,5 +1,6 @@
 keystore.properties
 build.jks
+keystore/
 
 easycontrolpro/*.iml
 easycontrolpro/.gradle

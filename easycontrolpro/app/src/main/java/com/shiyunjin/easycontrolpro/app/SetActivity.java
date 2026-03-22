@@ -40,7 +40,9 @@ public class SetActivity extends Activity {
       Toast.makeText(this, getString(R.string.toast_change_locale), Toast.LENGTH_SHORT).show();
     }).getRoot());
 
-    activitySetBinding.setAbout.addView(ViewTools.createTextCard(this, getString(R.string.set_about_website), () -> PublicTools.startUrl(this, "https://github.com/shiyunjin/EasyControlPro")).getRoot());
+    activitySetBinding.setAbout.addView(ViewTools.createTextCard(this, getString(R.string.set_about_website), () -> PublicTools.startUrl(this, "https://github.com/coldboy404/EasyControlPro")).getRoot());
+    activitySetBinding.setAbout.addView(ViewTools.createTextCard(this, getString(R.string.set_about_author), null).getRoot());
+    activitySetBinding.setAbout.addView(ViewTools.createTextCard(this, getString(R.string.set_about_based_on), null).getRoot());
    }
 
   // 设置按钮监听
