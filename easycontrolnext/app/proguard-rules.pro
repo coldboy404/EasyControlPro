@@ -19,7 +19,14 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
--keep class com.shiyunjin.easycontrolnext.*
+# Keep app classes and members to preserve behavior with reflection/IPC.
+-keep class com.shiyunjin.easycontrolnext.** { *; }
 
-# Don't minify Spake2 library
+# Keep SPAKE2/crypto classes used during pairing and key exchange.
 -keep public class io.github.muntashirakon.crypto.spake2.** { *; }
+-keep class org.bouncycastle.** { *; }
+-dontwarn org.bouncycastle.**
+
+# Keep conscrypt internals that may be loaded reflectively.
+-keep class org.conscrypt.** { *; }
+-dontwarn org.conscrypt.**

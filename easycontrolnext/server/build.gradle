@@ -10,8 +10,8 @@ android {
     minSdk = 21
     targetSdk 34
     applicationId 'com.shiyunjin.easycontrolnext.server'
-    versionCode 20003
-    versionName '2.0.3'
+    versionCode 20004
+    versionName '2.0.4'
   }
 
   buildTypes {
@@ -22,7 +22,7 @@ android {
       debuggable false
       minifyEnabled true
       shrinkResources = true
-      proguardFiles 'proguard-rules.pro'
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
     }
   }
 
