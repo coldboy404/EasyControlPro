@@ -1,19 +1,19 @@
 keystore.properties
 build.jks
 
-easycontrolnext/*.iml
-easycontrolnext/.gradle
-easycontrolnext/.idea
-easycontrolnext/local.properties
+easycontrolpro/*.iml
+easycontrolpro/.gradle
+easycontrolpro/.idea
+easycontrolpro/local.properties
 
-easycontrolnext/build
-easycontrolnext/app/build
-easycontrolnext/app/.gradle
-easycontrolnext/app/debug
-easycontrolnext/app/build
-easycontrolnext/app/release
-easycontrolnext/app/src/main/res/raw/easycontrolnext_server.jar
+easycontrolpro/build
+easycontrolpro/app/build
+easycontrolpro/app/.gradle
+easycontrolpro/app/debug
+easycontrolpro/app/build
+easycontrolpro/app/release
+easycontrolpro/app/src/main/res/raw/easycontrolpro_server.jar
 
-easycontrolnext/server/build
-easycontrolnext/server/.gradle
+easycontrolpro/server/build
+easycontrolpro/server/.gradle
 
