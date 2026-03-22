@@ -1,5 +1,7 @@
 # EasyControlPro
 
+> 中文版 README（当前）｜English version: [README.en.md](./README.en.md)
+
 本项目是基于以下仓库的硬分叉（Hard Fork）：
 - https://github.com/daitj/Easycontrol
 - https://github.com/mingzhixian/Easycontrol
