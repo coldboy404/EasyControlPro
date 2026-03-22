@@ -18,8 +18,7 @@
   <string name="set_other_ip">查看本机IP</string>
   <string name="set_other_locale">语言切换(中文/English)</string>
   <string name="set_about_website">项目主页</string>
-  <string name="set_about_author">作者：@clodboy404</string>
-  <string name="set_about_based_on">基于 mingzhixian/Easycontrol 修改而来</string>
+  <string name="set_about_footer">作者：@clodboy404\n基于 mingzhixian/Easycontrol 修改而来</string>
   <string name="set_about_privacy">隐私政策</string>
   <string name="set_about_version">版本: </string>
 

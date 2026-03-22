@@ -41,8 +41,6 @@ public class SetActivity extends Activity {
     }).getRoot());
 
     activitySetBinding.setAbout.addView(ViewTools.createTextCard(this, getString(R.string.set_about_website), () -> PublicTools.startUrl(this, "https://github.com/coldboy404/EasyControlPro")).getRoot());
-    activitySetBinding.setAbout.addView(ViewTools.createTextCard(this, getString(R.string.set_about_author), null).getRoot());
-    activitySetBinding.setAbout.addView(ViewTools.createTextCard(this, getString(R.string.set_about_based_on), null).getRoot());
    }
 
   // 设置按钮监听
